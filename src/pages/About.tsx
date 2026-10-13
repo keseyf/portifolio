@@ -118,7 +118,7 @@ export default function About() {
         )}
 
         <div>
-          <h1 className="font-display text-5xl font-extrabold uppercase tracking-wide text-white sm:text-6xl">
+          <h1 className="font-display text-2xl font-extrabold uppercase tracking-wide text-white sm:text-6xl">
             {profile.name}
           </h1>
           <p className="mt-3 text-sm text-neutral-400">{profile.role}</p>

@@ -64,7 +64,7 @@ function Row({ project, index }: { project: Project; index: number }) {
 export default function Projects() {
   return (
     <section className="mx-auto w-full max-w-[720px] px-6 pb-24 pt-32 sm:pt-40">
-      <h1 className="font-display text-5xl font-extrabold uppercase tracking-wide text-white sm:text-7xl">
+      <h1 className="font-display text-3xl font-extrabold uppercase tracking-wide text-white sm:text-7xl">
         Projects
       </h1>
       <p className="mt-6 text-sm text-neutral-500">Standalone builds, tools, and experiments.</p>
